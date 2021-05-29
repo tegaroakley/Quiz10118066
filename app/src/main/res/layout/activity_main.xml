@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="343sp"
+                android:layout_height="95sp"
+                android:layout_marginTop="56dp"
+                android:layout_marginLeft="32dp"
+                android:background="@color/PrimerGreen50">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="23dp"
+                    app:srcCompat="@drawable/logo_1"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="18dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Digi Team"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textFontWeight="500"
+                        android:textSize="16dp"
+                        android:textColor="@color/NeutralGrey900"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Digital Together Everyone Achieve More"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/lato"
+                        android:textFontWeight="400"
+                        android:textColor="@color/NeutralGrey600"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jabar Digital Service"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/lato"
+                        android:textFontWeight="400"
+                        android:textColor="@color/NeutralGrey600"></TextView>
+                </LinearLayout>
+            </RelativeLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ellipse_1"></ImageView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:text="Dias Eka Fredianto, S.Kom, B.IT"
+                    android:fontFamily="@font/roboto"
+                    android:textFontWeight="500"
+                    android:textColor="@color/NeutralGrey900"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:text="UI Designer"
+                    android:fontFamily="@font/roboto"
+                    android:textFontWeight="400"
+                    android:textColor="@color/NeutralGrey600"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="343dp"
+                android:layout_height="237dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="28dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Jam Kerja Bulan Ini"
+                    android:fontFamily="@font/roboto"
+                    android:textFontWeight="500"
+                    android:textColor="@color/HighEmphasis"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Jam kerja kamu bulan ini : 130.53 Jam"
+                    android:fontFamily="@font/roboto"
+                    android:textFontWeight="500"
+                    android:textColor="@color/PrimerBlue900"
+                    android:textSize="14dp"></TextView>
+
+                <LinearLayout
+                    android:layout_width="311dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/jam2">
+
+                <LinearLayout
+                    android:layout_width="230.55dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/jam1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="130.53 JAM"
+                        android:fontFamily="@font/roboto"
+                        android:textFontWeight="700"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"></TextView>
+                </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Batas Minimum Jam Kerja 170 jam/bulan"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/lato"
+                    android:textFontWeight="400"></TextView>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
